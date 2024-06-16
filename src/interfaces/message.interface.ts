@@ -1,6 +1,8 @@
 import {Document} from "mongoose"
 
-export interface MessageInterface extends Document {
+interface MessageInterface extends Document {
     content: string,
     createdAt: Date
 }
+
+export default MessageInterface
