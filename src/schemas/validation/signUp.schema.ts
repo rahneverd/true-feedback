@@ -20,3 +20,5 @@ const signUpSchema = z.object({
       email: emailValidation,
       password: passwordValidation
 })
+
+export default signUpSchema
